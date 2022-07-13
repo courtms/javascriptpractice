@@ -27,7 +27,17 @@ switch (day) {
         break; 
     default:
         daysToSat = null;
+}
+if (daysToSat === null) {
+    console.log('Unknown day!');
+}   else {
+    if (daysToSat === 0) {
+        console.log('Its Saturday!')
+    } else {
+        console.log('There are ${daysToSat}')
+    }
 
+}
 
 
 
